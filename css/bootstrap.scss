@@ -1,0 +1,46 @@
+$jlprimary: #8338ec;
+$jlsecondary: #ffbe0b;
+$jlsuccess: #38b000;
+$jlinfo: #00a6fb;
+$jlwarning: #fb5607;
+$jldanger: #ff006e;
+$jllight: #ced4da;
+$jllight-2: #adb5bd;
+$jldark: #6c757d;
+$jldark-2: #495057;
+
+$theme-colors: (
+  "primary": $jlprimary,
+  "secondary": $jlsecondary,
+  "success": $jlsuccess,
+  "info": $jlinfo,
+  "warning": $jlwarning,
+  "danger": $jldanger,
+  "jllight": $jllight,
+  "jllight-2": $jllight-2,
+  "jldark": $jldark,
+  "jldark-2": $jldark-2,
+);
+
+$enable-rounded: false;
+$enable-shadows: false;
+$enable-gradients: true;
+$enable-grid-classes: true;
+$enable-print-styles: true;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+  xxxl: 1800px,
+);
+
+@import "./../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// The bootstrap.scss file is the “main” file that references all other SCSS source files using SASS @import ".." statements.
+// The _variables.scss file contains all the SASS variables that are available to customize and override.
+// The _variables.scss contains variables that are dependent on the _functions.scss and _mixins.scss files.
+// The Bootstrap CSS can be compiled with or without the Grid (bootstrap-grid.scss) and Reboot (bootstrap-reboot.scss).
